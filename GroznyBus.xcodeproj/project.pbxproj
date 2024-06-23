@@ -11,6 +11,11 @@
 		07655CAC2C24BD5800E3CCF4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07655CAB2C24BD5800E3CCF4 /* ContentView.swift */; };
 		07655CAE2C24BD5900E3CCF4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 07655CAD2C24BD5900E3CCF4 /* Assets.xcassets */; };
 		07655CB12C24BD5900E3CCF4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 07655CB02C24BD5900E3CCF4 /* Preview Assets.xcassets */; };
+		07A807F82C26BEAF0006D6EA /* Bus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07A807F72C26BEAF0006D6EA /* Bus.swift */; };
+		07A807FB2C26BEEE0006D6EA /* Stop.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07A807FA2C26BEEE0006D6EA /* Stop.swift */; };
+		07A807FF2C26C1AF0006D6EA /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07A807FE2C26C1AF0006D6EA /* HomeView.swift */; };
+		07A808012C26C1FB0006D6EA /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07A808002C26C1FB0006D6EA /* SettingsView.swift */; };
+		07A808062C2832AE0006D6EA /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07A808052C2832AE0006D6EA /* HomeViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +24,11 @@
 		07655CAB2C24BD5800E3CCF4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		07655CAD2C24BD5900E3CCF4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		07655CB02C24BD5900E3CCF4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		07A807F72C26BEAF0006D6EA /* Bus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bus.swift; sourceTree = "<group>"; };
+		07A807FA2C26BEEE0006D6EA /* Stop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stop.swift; sourceTree = "<group>"; };
+		07A807FE2C26C1AF0006D6EA /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		07A808002C26C1FB0006D6EA /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		07A808052C2832AE0006D6EA /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +61,10 @@
 		07655CA82C24BD5800E3CCF4 /* GroznyBus */ = {
 			isa = PBXGroup;
 			children = (
+				07A808022C2817580006D6EA /* Extentions */,
+				07A807F62C26B8B10006D6EA /* Services */,
+				07A807F52C26B8AD0006D6EA /* Views */,
+				07A807F42C26B8A60006D6EA /* Models */,
 				07655CA92C24BD5800E3CCF4 /* GroznyBusApp.swift */,
 				07655CAB2C24BD5800E3CCF4 /* ContentView.swift */,
 				07655CAD2C24BD5900E3CCF4 /* Assets.xcassets */,
@@ -65,6 +79,39 @@
 				07655CB02C24BD5900E3CCF4 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		07A807F42C26B8A60006D6EA /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				07A807FA2C26BEEE0006D6EA /* Stop.swift */,
+				07A807F72C26BEAF0006D6EA /* Bus.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		07A807F52C26B8AD0006D6EA /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				07A807FE2C26C1AF0006D6EA /* HomeView.swift */,
+				07A808002C26C1FB0006D6EA /* SettingsView.swift */,
+				07A808052C2832AE0006D6EA /* HomeViewModel.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		07A807F62C26B8B10006D6EA /* Services */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		07A808022C2817580006D6EA /* Extentions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extentions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +184,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				07A807F82C26BEAF0006D6EA /* Bus.swift in Sources */,
 				07655CAC2C24BD5800E3CCF4 /* ContentView.swift in Sources */,
+				07A808062C2832AE0006D6EA /* HomeViewModel.swift in Sources */,
 				07655CAA2C24BD5800E3CCF4 /* GroznyBusApp.swift in Sources */,
+				07A808012C26C1FB0006D6EA /* SettingsView.swift in Sources */,
+				07A807FF2C26C1AF0006D6EA /* HomeView.swift in Sources */,
+				07A807FB2C26BEEE0006D6EA /* Stop.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
