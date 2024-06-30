@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		070AA0762C2F377A007C4E64 /* Binding+ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 070AA0752C2F377A007C4E64 /* Binding+ext.swift */; };
+		070AA0782C303C03007C4E64 /* AdminBussesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 070AA0772C303C03007C4E64 /* AdminBussesView.swift */; };
+		070AA07A2C303D2B007C4E64 /* AdminStopsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 070AA0792C303D2B007C4E64 /* AdminStopsView.swift */; };
+		070AA07C2C3053A3007C4E64 /* BusItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 070AA07B2C3053A3007C4E64 /* BusItemView.swift */; };
+		070AA07E2C30B19E007C4E64 /* StopItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 070AA07D2C30B19E007C4E64 /* StopItemView.swift */; };
 		07655CAA2C24BD5800E3CCF4 /* GroznyBusApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07655CA92C24BD5800E3CCF4 /* GroznyBusApp.swift */; };
 		07655CAC2C24BD5800E3CCF4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07655CAB2C24BD5800E3CCF4 /* ContentView.swift */; };
 		07655CAE2C24BD5900E3CCF4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 07655CAD2C24BD5900E3CCF4 /* Assets.xcassets */; };
@@ -16,9 +21,20 @@
 		07A807FF2C26C1AF0006D6EA /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07A807FE2C26C1AF0006D6EA /* HomeView.swift */; };
 		07A808012C26C1FB0006D6EA /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07A808002C26C1FB0006D6EA /* SettingsView.swift */; };
 		07A808062C2832AE0006D6EA /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07A808052C2832AE0006D6EA /* HomeViewModel.swift */; };
+		07A8080A2C289B070006D6EA /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 07A808092C289B070006D6EA /* FirebaseFirestore */; };
+		07A8080C2C289DCC0006D6EA /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 07A8080B2C289DCC0006D6EA /* GoogleService-Info.plist */; };
+		07A8080E2C289E040006D6EA /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 07A8080D2C289E040006D6EA /* FirebaseAnalytics */; };
+		07A808102C289E0F0006D6EA /* FirebaseAnalyticsWithoutAdIdSupport in Frameworks */ = {isa = PBXBuildFile; productRef = 07A8080F2C289E0F0006D6EA /* FirebaseAnalyticsWithoutAdIdSupport */; };
+		07A8084B2C2F23160006D6EA /* AdminView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07A8084A2C2F23160006D6EA /* AdminView.swift */; };
+		07A8084F2C2F25DB0006D6EA /* AdminViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07A8084E2C2F25DB0006D6EA /* AdminViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		070AA0752C2F377A007C4E64 /* Binding+ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Binding+ext.swift"; sourceTree = "<group>"; };
+		070AA0772C303C03007C4E64 /* AdminBussesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdminBussesView.swift; sourceTree = "<group>"; };
+		070AA0792C303D2B007C4E64 /* AdminStopsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdminStopsView.swift; sourceTree = "<group>"; };
+		070AA07B2C3053A3007C4E64 /* BusItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusItemView.swift; sourceTree = "<group>"; };
+		070AA07D2C30B19E007C4E64 /* StopItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StopItemView.swift; sourceTree = "<group>"; };
 		07655CA62C24BD5800E3CCF4 /* GroznyBus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GroznyBus.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		07655CA92C24BD5800E3CCF4 /* GroznyBusApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroznyBusApp.swift; sourceTree = "<group>"; };
 		07655CAB2C24BD5800E3CCF4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -29,6 +45,9 @@
 		07A807FE2C26C1AF0006D6EA /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		07A808002C26C1FB0006D6EA /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 		07A808052C2832AE0006D6EA /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		07A8080B2C289DCC0006D6EA /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		07A8084A2C2F23160006D6EA /* AdminView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdminView.swift; sourceTree = "<group>"; };
+		07A8084E2C2F25DB0006D6EA /* AdminViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdminViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +55,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				07A8080E2C289E040006D6EA /* FirebaseAnalytics in Frameworks */,
+				07A808102C289E0F0006D6EA /* FirebaseAnalyticsWithoutAdIdSupport in Frameworks */,
+				07A8080A2C289B070006D6EA /* FirebaseFirestore in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -47,6 +69,7 @@
 			children = (
 				07655CA82C24BD5800E3CCF4 /* GroznyBus */,
 				07655CA72C24BD5800E3CCF4 /* Products */,
+				07A808082C289B070006D6EA /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -61,6 +84,7 @@
 		07655CA82C24BD5800E3CCF4 /* GroznyBus */ = {
 			isa = PBXGroup;
 			children = (
+				07A8080B2C289DCC0006D6EA /* GoogleService-Info.plist */,
 				07A808022C2817580006D6EA /* Extentions */,
 				07A807F62C26B8B10006D6EA /* Services */,
 				07A807F52C26B8AD0006D6EA /* Views */,
@@ -93,9 +117,11 @@
 		07A807F52C26B8AD0006D6EA /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				07A807FE2C26C1AF0006D6EA /* HomeView.swift */,
+				070AA07B2C3053A3007C4E64 /* BusItemView.swift */,
+				07A8084D2C2F25CD0006D6EA /* AdminView */,
+				07A8084C2C2F25AB0006D6EA /* HomeView */,
 				07A808002C26C1FB0006D6EA /* SettingsView.swift */,
-				07A808052C2832AE0006D6EA /* HomeViewModel.swift */,
+				070AA07D2C30B19E007C4E64 /* StopItemView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -110,8 +136,36 @@
 		07A808022C2817580006D6EA /* Extentions */ = {
 			isa = PBXGroup;
 			children = (
+				070AA0752C2F377A007C4E64 /* Binding+ext.swift */,
 			);
 			path = Extentions;
+			sourceTree = "<group>";
+		};
+		07A808082C289B070006D6EA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		07A8084C2C2F25AB0006D6EA /* HomeView */ = {
+			isa = PBXGroup;
+			children = (
+				07A807FE2C26C1AF0006D6EA /* HomeView.swift */,
+				07A808052C2832AE0006D6EA /* HomeViewModel.swift */,
+			);
+			path = HomeView;
+			sourceTree = "<group>";
+		};
+		07A8084D2C2F25CD0006D6EA /* AdminView */ = {
+			isa = PBXGroup;
+			children = (
+				07A8084A2C2F23160006D6EA /* AdminView.swift */,
+				07A8084E2C2F25DB0006D6EA /* AdminViewModel.swift */,
+				070AA0772C303C03007C4E64 /* AdminBussesView.swift */,
+				070AA0792C303D2B007C4E64 /* AdminStopsView.swift */,
+			);
+			path = AdminView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -130,6 +184,11 @@
 			dependencies = (
 			);
 			name = GroznyBus;
+			packageProductDependencies = (
+				07A808092C289B070006D6EA /* FirebaseFirestore */,
+				07A8080D2C289E040006D6EA /* FirebaseAnalytics */,
+				07A8080F2C289E0F0006D6EA /* FirebaseAnalyticsWithoutAdIdSupport */,
+			);
 			productName = GroznyBus;
 			productReference = 07655CA62C24BD5800E3CCF4 /* GroznyBus.app */;
 			productType = "com.apple.product-type.application";
@@ -158,6 +217,9 @@
 				Base,
 			);
 			mainGroup = 07655C9D2C24BD5800E3CCF4;
+			packageReferences = (
+				07A808072C2898FE0006D6EA /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			productRefGroup = 07655CA72C24BD5800E3CCF4 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -174,6 +236,7 @@
 			files = (
 				07655CB12C24BD5900E3CCF4 /* Preview Assets.xcassets in Resources */,
 				07655CAE2C24BD5900E3CCF4 /* Assets.xcassets in Resources */,
+				07A8080C2C289DCC0006D6EA /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -184,13 +247,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				070AA0782C303C03007C4E64 /* AdminBussesView.swift in Sources */,
 				07A807F82C26BEAF0006D6EA /* Bus.swift in Sources */,
 				07655CAC2C24BD5800E3CCF4 /* ContentView.swift in Sources */,
 				07A808062C2832AE0006D6EA /* HomeViewModel.swift in Sources */,
+				070AA07A2C303D2B007C4E64 /* AdminStopsView.swift in Sources */,
+				07A8084F2C2F25DB0006D6EA /* AdminViewModel.swift in Sources */,
 				07655CAA2C24BD5800E3CCF4 /* GroznyBusApp.swift in Sources */,
 				07A808012C26C1FB0006D6EA /* SettingsView.swift in Sources */,
 				07A807FF2C26C1AF0006D6EA /* HomeView.swift in Sources */,
+				07A8084B2C2F23160006D6EA /* AdminView.swift in Sources */,
+				070AA07C2C3053A3007C4E64 /* BusItemView.swift in Sources */,
+				070AA07E2C30B19E007C4E64 /* StopItemView.swift in Sources */,
 				07A807FB2C26BEEE0006D6EA /* Stop.swift in Sources */,
+				070AA0762C2F377A007C4E64 /* Binding+ext.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -323,7 +393,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"GroznyBus/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "GroznyBus/Preview\\ Content";
 				DEVELOPMENT_TEAM = QYY3G6W6RG;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -352,7 +422,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"GroznyBus/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "GroznyBus/Preview\\ Content";
 				DEVELOPMENT_TEAM = QYY3G6W6RG;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -396,6 +466,35 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		07A808072C2898FE0006D6EA /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.28.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		07A808092C289B070006D6EA /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 07A808072C2898FE0006D6EA /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		07A8080D2C289E040006D6EA /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 07A808072C2898FE0006D6EA /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		07A8080F2C289E0F0006D6EA /* FirebaseAnalyticsWithoutAdIdSupport */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 07A808072C2898FE0006D6EA /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalyticsWithoutAdIdSupport;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 07655C9E2C24BD5800E3CCF4 /* Project object */;
 }
